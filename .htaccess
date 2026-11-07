@@ -1,0 +1,57 @@
+# =============================================================================
+# EmnexAnime — Apache config
+# Pretty URLs + hard denial of anything that must stay server-side
+# (the API key in keys.txt, the source/ SQLite cache, logs, views, …).
+# =============================================================================
+
+Options -Indexes
+DirectoryIndex index.php
+
+# ---- deny sensitive paths & files -------------------------------------------
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Any direct hit on internals is a 403 before any routing happens.
+    RewriteRule ^(keys\.txt$|config\.php$|storage/|lib/|views/|probe/|logs/|.*\.sqlite$|.*\.sqlite-wal$|.*\.sqlite-shm$) - [F,L,NC]
+    # Dotfiles (.git, .env, …) except the well-known maintenance ones.
+    RewriteRule (^\.|/\.) - [F,L] [OR,NC]
+</IfModule>
+
+<FilesMatch "\.(sqlite|sqlite-wal|sqlite-shm|log)$">
+    Require all denied
+</FilesMatch>
+<Files "keys.txt">
+    Require all denied
+</Files>
+<Files "config.php">
+    Require all denied
+</Files>
+
+# ---- front controller --------------------------------------------------------
+<IfModule mod_rewrite.c>
+    # Route every existing file/dir directly, everything else to index.php
+    # (legacy /?p=… schemes keep working through index.php itself).
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+# ---- compression & cache stamps ----------------------------------------------
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/vtt
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/svg+xml "access plus 7 days"
+    ExpiresByType application/javascript "access plus 7 days"
+    ExpiresByType text/css "access plus 7 days"
+</IfModule>
+
+# The app sends its own Cache-Control/stale-while-revalidate headers per route.
+<IfModule mod_headers.c>
+    Header unset X-Powered-By
+</IfModule>
+
+<IfModule mod_mime.c>
+    AddCharset UTF-8 .html .css .js .svg .vtt
+</IfModule>

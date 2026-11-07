@@ -1,0 +1,1579 @@
+﻿{
+    "schedule":  [
+                     {
+                         "episode":  6,
+                         "airingAt":  1794052800,
+                         "anime":  {
+                                       "id":  180894,
+                                       "idMal":  59787,
+                                       "title":  "Romelia War Chronicle",
+                                       "titles":  {
+                                                      "romaji":  "Romelia Senki: Maou wo Taoshita nochi mo Jinrui Yabasou dakara Guntai Soshiki Shita",
+                                                      "english":  "Romelia War Chronicle",
+                                                      "native":  "ロメリア戦記 〜魔王を倒した後も人類やばそうだから軍隊組織した〜"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  7.2,
+                                       "popularity":  18057,
+                                       "genres":  [
+                                                      "Adventure",
+                                                      "Drama",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx180894-o3pz4DWFm3je.png",
+                                       "color":  "#4393e4",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/180894-msSUHJ5Qejvf.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  7,
+                         "airingAt":  1794056400,
+                         "anime":  {
+                                       "id":  187402,
+                                       "idMal":  61153,
+                                       "title":  "A Tale of the Secret Saint",
+                                       "titles":  {
+                                                      "romaji":  "Tensei shita Dai Seijo wa, Seijo de Aru Koto wo Hita Kakusu",
+                                                      "english":  "A Tale of the Secret Saint",
+                                                      "native":  "転生した大聖女は、聖女であることをひた隠す"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  6,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.9,
+                                       "popularity":  19467,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187402-ReKkLwFmMV3q.jpg",
+                                       "color":  "#50bbe4",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/187402-bRt4OO90jcmt.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  7,
+                         "airingAt":  1794058200,
+                         "anime":  {
+                                       "id":  204389,
+                                       "idMal":  63140,
+                                       "title":  "A Wild Last Boss Appeared! Season 2",
+                                       "titles":  {
+                                                      "romaji":  "Yasei no Last Boss ga Arawareta! 2nd Season",
+                                                      "english":  "A Wild Last Boss Appeared! Season 2",
+                                                      "native":  "野生のラスボスが現れた！ 第2期"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  6,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  7.3,
+                                       "popularity":  24507,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204389-jCoFCeTthDMy.jpg",
+                                       "color":  "#e45dc9",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794060000,
+                         "anime":  {
+                                       "id":  195604,
+                                       "idMal":  61967,
+                                       "title":  "Black Clover Season 2",
+                                       "titles":  {
+                                                      "romaji":  "Black Clover 2nd Season",
+                                                      "english":  "Black Clover Season 2",
+                                                      "native":  "ブラッククローバー 第2期"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  8.7,
+                                       "popularity":  105993,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Comedy",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195604-tSZcfKbVqSEG.jpg",
+                                       "color":  "#f1a143",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/195604-lQpCzTziSA17.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  1,
+                         "airingAt":  1794061800,
+                         "anime":  {
+                                       "id":  214536,
+                                       "idMal":  63938,
+                                       "title":  "CARDFIGHT!! VANGUARD Divinez: Parallactic Fate",
+                                       "titles":  {
+                                                      "romaji":  "Cardfight!! Vanguard Divinez Unmei Seisen-hen",
+                                                      "english":  "CARDFIGHT!! VANGUARD Divinez: Parallactic Fate",
+                                                      "native":  "カードファイト!! ヴァンガード Divinez 運命星戦編"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "NOT_YET_RELEASED",
+                                       "episodes":  3,
+                                       "duration":  null,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  483,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx214536-dl2KJdHcKWJl.jpg",
+                                       "color":  "#f14335",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794061800,
+                         "anime":  {
+                                       "id":  209562,
+                                       "idMal":  63764,
+                                       "title":  "VERTEX FORCE",
+                                       "titles":  {
+                                                      "romaji":  "Vertex Force",
+                                                      "english":  "VERTEX FORCE",
+                                                      "native":  "バーテックスフォース"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  5.5,
+                                       "popularity":  4932,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Mecha"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209562-kQQbTKDuql9p.jpg",
+                                       "color":  "#e4d650",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/209562-dvyIvOOVgDNp.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794062700,
+                         "anime":  {
+                                       "id":  203473,
+                                       "idMal":  63053,
+                                       "title":  "HORROR COLLECTOR",
+                                       "titles":  {
+                                                      "romaji":  "Kyoufu Collector",
+                                                      "english":  "HORROR COLLECTOR",
+                                                      "native":  "恐怖コレクター"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  25,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  5.1,
+                                       "popularity":  6960,
+                                       "genres":  [
+                                                      "Horror",
+                                                      "Mystery",
+                                                      "Supernatural"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b203473-pzyaqV432Qko.jpg",
+                                       "color":  null,
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/203473-KCGlCZL2ApjB.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  7,
+                         "airingAt":  1794063600,
+                         "anime":  {
+                                       "id":  169581,
+                                       "idMal":  56733,
+                                       "title":  "Magical Explorer",
+                                       "titles":  {
+                                                      "romaji":  "Magical★Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
+                                                      "english":  "Magical Explorer",
+                                                      "native":  "マジカル★エクスプローラー　エロゲの友人キャラに転生したけど、ゲーム知識使って自由に生きる"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  13,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.9,
+                                       "popularity":  25364,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Ecchi",
+                                                      "Fantasy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169581-UlAviVH36Hxi.png",
+                                       "color":  "#f1a150",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/169581-cdooqY7Jqy3x.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794065400,
+                         "anime":  {
+                                       "id":  191656,
+                                       "idMal":  61578,
+                                       "title":  "Even the Student Council Has Its Holes!",
+                                       "titles":  {
+                                                      "romaji":  "Seitokai ni mo Ana wa Aru!",
+                                                      "english":  "Even the Student Council Has Its Holes!",
+                                                      "native":  "生徒会にも穴はある！"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  7.3,
+                                       "popularity":  49034,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Ecchi",
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191656-xFHtxM8SUTdU.png",
+                                       "color":  "#5dbbe4",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/191656-JQILdzh3FQxN.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794066960,
+                         "anime":  {
+                                       "id":  209872,
+                                       "idMal":  63801,
+                                       "title":  "Ranma1/2 (2024) Season 3",
+                                       "titles":  {
+                                                      "romaji":  "Ranma 1/2 (2024) 3rd Season",
+                                                      "english":  "Ranma1/2 (2024) Season 3",
+                                                      "native":  "らんま1/2 (2024) 第3期"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  7.9,
+                                       "popularity":  18238,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Comedy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209872-RBeVPqwejHFp.jpg",
+                                       "color":  "#e4bb5d",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/209872-Qczb4k9Mw0pq.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794069000,
+                         "anime":  {
+                                       "id":  202250,
+                                       "idMal":  62922,
+                                       "title":  "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
+                                       "titles":  {
+                                                      "romaji":  "Kashita Maryoku wa [Revo Barai] de Kyousei Choushuu",
+                                                      "english":  "Magic Repo Man: Dumped by My Party, I’ll Cash In With a Cute Support Fairy to Become the Strongest!",
+                                                      "native":  "貸した魔力は【リボ払い】で強制徴収"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  23,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.1,
+                                       "popularity":  25158,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202250-mpm2cvr92Au2.jpg",
+                                       "color":  "#bbe45d",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  31,
+                         "airingAt":  1794088800,
+                         "anime":  {
+                                       "id":  204269,
+                                       "idMal":  63125,
+                                       "title":  "Little Shark\u0027s Day Out Season 2",
+                                       "titles":  {
+                                                      "romaji":  "Odekake Kozame Season 2",
+                                                      "english":  "Little Shark\u0027s Day Out Season 2",
+                                                      "native":  "おでかけ子ザメ シーズン2"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  72,
+                                       "duration":  2,
+                                       "season":  "SPRING",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  677,
+                                       "genres":  [
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx204269-fTR4iyVjTHiC.png",
+                                       "color":  "#50bbfe",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794088800,
+                         "anime":  {
+                                       "id":  213298,
+                                       "idMal":  64430,
+                                       "title":  "Yuruyuru Zukan",
+                                       "titles":  {
+                                                      "romaji":  "Yuruyuru Zukan",
+                                                      "english":  null,
+                                                      "native":  "ゆるゆる図鑑"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  2,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  189,
+                                       "genres":  [
+
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213298-ymB1Sw0yDZ0Y.jpg",
+                                       "color":  "#febb50",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794088800,
+                         "anime":  {
+                                       "id":  218011,
+                                       "idMal":  64028,
+                                       "title":  "Raccoon Dog \u0026 Fox",
+                                       "titles":  {
+                                                      "romaji":  "Tanuki to Kitsune (TV)",
+                                                      "english":  "Raccoon Dog \u0026 Fox",
+                                                      "native":  "タヌキとキツネ"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  2,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  126,
+                                       "genres":  [
+                                                      "Comedy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx218011-dPgr1MlfSuhH.jpg",
+                                       "color":  "#fed628",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  84,
+                         "airingAt":  1794092400,
+                         "anime":  {
+                                       "id":  185646,
+                                       "idMal":  60534,
+                                       "title":  "Koupen-chan",
+                                       "titles":  {
+                                                      "romaji":  "Koupen-chan",
+                                                      "english":  null,
+                                                      "native":  "コウペンちゃん"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  83,
+                                       "duration":  2,
+                                       "season":  "SPRING",
+                                       "year":  2025,
+                                       "rating":  7,
+                                       "popularity":  3359,
+                                       "genres":  [
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185646-2eGmsnaSHiLC.jpg",
+                                       "color":  "#aed643",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185646-69FyAu3rfhEC.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  40,
+                         "airingAt":  1794094200,
+                         "anime":  {
+                                       "id":  202957,
+                                       "idMal":  63042,
+                                       "title":  "Star Detective Precure!",
+                                       "titles":  {
+                                                      "romaji":  "Meitantei Precure!",
+                                                      "english":  "Star Detective Precure!",
+                                                      "native":  "名探偵プリキュア！"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  51,
+                                       "duration":  24,
+                                       "season":  "WINTER",
+                                       "year":  2026,
+                                       "rating":  7.6,
+                                       "popularity":  6925,
+                                       "genres":  [
+                                                      "Mahou Shoujo",
+                                                      "Mystery"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202957-fxZGgJTvwXzP.jpg",
+                                       "color":  "#d6ae1a",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/202957-B9U0hNv2Dqap.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794096960,
+                         "anime":  {
+                                       "id":  216860,
+                                       "idMal":  null,
+                                       "title":  "Punirunes Puni 4",
+                                       "titles":  {
+                                                      "romaji":  "Punirunes Puni 4",
+                                                      "english":  null,
+                                                      "native":  "ぷにるんず ぷに４"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  12,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  61,
+                                       "genres":  [
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx216860-ghfSopHbPVNa.png",
+                                       "color":  "#5dd6f1",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  32,
+                         "airingAt":  1794097800,
+                         "anime":  {
+                                       "id":  206523,
+                                       "idMal":  63352,
+                                       "title":  "Onegai AiPri",
+                                       "titles":  {
+                                                      "romaji":  "Onegai AiPri",
+                                                      "english":  null,
+                                                      "native":  "おねがいアイプリ"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  31,
+                                       "duration":  null,
+                                       "season":  "SPRING",
+                                       "year":  2026,
+                                       "rating":  5.8,
+                                       "popularity":  850,
+                                       "genres":  [
+                                                      "Music"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206523-2IaJCk4R7i63.jpg",
+                                       "color":  "#0035ff",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794099600,
+                         "anime":  {
+                                       "id":  217787,
+                                       "idMal":  64211,
+                                       "title":  "Pop Pap Polters",
+                                       "titles":  {
+                                                      "romaji":  "Pop Pap Polters",
+                                                      "english":  null,
+                                                      "native":  "ポップパップポルターズ"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  3,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  62,
+                                       "genres":  [
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b217787-NHLlgGiqy59P.jpg",
+                                       "color":  "#d6781a",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  430,
+                         "airingAt":  1794103200,
+                         "anime":  {
+                                       "id":  155723,
+                                       "idMal":  null,
+                                       "title":  "Wushen Zhuzai: Da Wei Pian",
+                                       "titles":  {
+                                                      "romaji":  "Wushen Zhuzai: Da Wei Pian",
+                                                      "english":  null,
+                                                      "native":  "武神主宰 大威篇"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  448,
+                                       "duration":  7,
+                                       "season":  null,
+                                       "year":  null,
+                                       "rating":  6.9,
+                                       "popularity":  611,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx155723-hM261Imc5yfd.png",
+                                       "color":  "#c9f1f1",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  60,
+                         "airingAt":  1794103200,
+                         "anime":  {
+                                       "id":  196613,
+                                       "idMal":  51039,
+                                       "title":  "Dou Po Cangqiong: Nian Fan 4",
+                                       "titles":  {
+                                                      "romaji":  "Dou Po Cangqiong: Nian Fan 4",
+                                                      "english":  null,
+                                                      "native":  "斗破苍穹 年番4"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  62,
+                                       "duration":  24,
+                                       "season":  null,
+                                       "year":  null,
+                                       "rating":  7.7,
+                                       "popularity":  935,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx196613-20kz65bVsHl7.jpg",
+                                       "color":  "#e4935d",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794123000,
+                         "anime":  {
+                                       "id":  189123,
+                                       "idMal":  61323,
+                                       "title":  "Blue Box Season 2",
+                                       "titles":  {
+                                                      "romaji":  "Ao no Hako Season 2",
+                                                      "english":  "Blue Box Season 2",
+                                                      "native":  "アオのハコ Season２"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  8.1,
+                                       "popularity":  52181,
+                                       "genres":  [
+                                                      "Romance",
+                                                      "Slice of Life",
+                                                      "Sports"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx189123-0secXELIhkIW.jpg",
+                                       "color":  "#e4ae50",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189123-aGJ7pIDUo2Xs.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794124800,
+                         "anime":  {
+                                       "id":  191788,
+                                       "idMal":  61603,
+                                       "title":  "Aoashi Season 2",
+                                       "titles":  {
+                                                      "romaji":  "Aoashi 2nd Season",
+                                                      "english":  "Aoashi Season 2",
+                                                      "native":  "アオアシ 第2期"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  24,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  8,
+                                       "popularity":  27319,
+                                       "genres":  [
+                                                      "Sports"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191788-XC6F24LdX6a4.jpg",
+                                       "color":  "#e4ae50",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/191788-tyhsHpXeF26X.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794124800,
+                         "anime":  {
+                                       "id":  213657,
+                                       "idMal":  64503,
+                                       "title":  "Mission: Yozakura Family Season 2 Part 2",
+                                       "titles":  {
+                                                      "romaji":  "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
+                                                      "english":  "Mission: Yozakura Family Season 2 Part 2",
+                                                      "native":  "夜桜さんちの大作戦 第2期 第2クール"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  4,
+                                       "duration":  null,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  7.3,
+                                       "popularity":  10387,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Comedy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213657-ORNXVEBCjXaz.jpg",
+                                       "color":  "#5dbbe4",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794126600,
+                         "anime":  {
+                                       "id":  213658,
+                                       "idMal":  64505,
+                                       "title":  "Ace of the Diamond act II -Second Season-",
+                                       "titles":  {
+                                                      "romaji":  "Diamond no Ace act II: Second Season Part 2",
+                                                      "english":  "Ace of the Diamond act II -Second Season-",
+                                                      "native":  "ダイヤのA actⅡ -Second Season- 第2クール"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  4,
+                                       "duration":  23,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  8.1,
+                                       "popularity":  4550,
+                                       "genres":  [
+                                                      "Sports"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx213658-D3BPJaqawLxS.png",
+                                       "color":  "#1a93d6",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  391,
+                         "airingAt":  1794128400,
+                         "anime":  {
+                                       "id":  118123,
+                                       "idMal":  44042,
+                                       "title":  "Holo no Graffiti",
+                                       "titles":  {
+                                                      "romaji":  "Holo no Graffiti",
+                                                      "english":  null,
+                                                      "native":  "ホロのぐらふぃてぃ"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  390,
+                                       "duration":  2,
+                                       "season":  "SPRING",
+                                       "year":  2019,
+                                       "rating":  7.8,
+                                       "popularity":  14871,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Comedy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118123-xqn5fYsjKXJU.png",
+                                       "color":  "#e4ae5d",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/118123-BvHyzWd850nZ.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  2857,
+                         "airingAt":  1794130200,
+                         "anime":  {
+                                       "id":  2406,
+                                       "idMal":  2406,
+                                       "title":  "Sazae-san",
+                                       "titles":  {
+                                                      "romaji":  "Sazae-san",
+                                                      "english":  null,
+                                                      "native":  "サザエさん"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  2856,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  1969,
+                                       "rating":  5.6,
+                                       "popularity":  2565,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2406-nP8NIct9Sci3.jpg",
+                                       "color":  "#f1bb43",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2406-ROqXxejQ5bH9.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  7,
+                         "airingAt":  1794139200,
+                         "anime":  {
+                                       "id":  215835,
+                                       "idMal":  64867,
+                                       "title":  "Umayuru: Full Gate!",
+                                       "titles":  {
+                                                      "romaji":  "Umayuru: Full Gate!",
+                                                      "english":  null,
+                                                      "native":  "うまゆるふるげ〜と!"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  26,
+                                       "duration":  3,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  7,
+                                       "popularity":  3008,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx215835-B0seSw93V5qM.png",
+                                       "color":  "#43aef1",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794141000,
+                         "anime":  {
+                                       "id":  186541,
+                                       "idMal":  60948,
+                                       "title":  "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
+                                       "titles":  {
+                                                      "romaji":  "Mezametara Saikyou Soubi to Uchuusen-mochi datta node, Ikkodate Mezashite Youhei to shite Jiyuu ni Ikitai",
+                                                      "english":  "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
+                                                      "native":  "目覚めたら最強装備と宇宙船持ちだったので、一戸建て目指して傭兵として自由に生きたい"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  13,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.9,
+                                       "popularity":  29045,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Comedy",
+                                                      "Drama",
+                                                      "Mecha",
+                                                      "Romance",
+                                                      "Sci-Fi"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx186541-caYpLsLmbCh7.jpg",
+                                       "color":  "#d6bb78",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794142800,
+                         "anime":  {
+                                       "id":  202079,
+                                       "idMal":  62907,
+                                       "title":  "Uncle\u0027s Obsession with Cute Things",
+                                       "titles":  {
+                                                      "romaji":  "Oji-san wa Kawaii Mono ga Osuki.",
+                                                      "english":  "Uncle\u0027s Obsession with Cute Things",
+                                                      "native":  "おじさんはカワイイものがお好き。"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.3,
+                                       "popularity":  6016,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx202079-nwBpDUms0Bab.png",
+                                       "color":  "#f1ae35",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/202079-oeULOdC1R1AR.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794144600,
+                         "anime":  {
+                                       "id":  209032,
+                                       "idMal":  63667,
+                                       "title":  "Magical Sisters LuluttoLilly Part 2",
+                                       "titles":  {
+                                                      "romaji":  "Mahou no Shimai LuluttoLilly Part 2",
+                                                      "english":  "Magical Sisters LuluttoLilly Part 2",
+                                                      "native":  "魔法の姉妹ルルットリリィ 第2クール"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  23,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.3,
+                                       "popularity":  1496,
+                                       "genres":  [
+                                                      "Mahou Shoujo",
+                                                      "Music"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209032-R0gP5IFdk7Vd.jpg",
+                                       "color":  "#e45df1",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/209032-hpYi0dlKkagd.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794146400,
+                         "anime":  {
+                                       "id":  209499,
+                                       "idMal":  63751,
+                                       "title":  "TANK CHAIR",
+                                       "titles":  {
+                                                      "romaji":  "TANK CHAIR: Sensha Isu",
+                                                      "english":  "TANK CHAIR",
+                                                      "native":  "TANK CHAIR-戦車椅子-"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  25,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.1,
+                                       "popularity":  9271,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Sci-Fi"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209499-S0sWFrCpft85.jpg",
+                                       "color":  "#e4c95d",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794147360,
+                         "anime":  {
+                                       "id":  206814,
+                                       "idMal":  63367,
+                                       "title":  "Dragon Ball Super: Beerus",
+                                       "titles":  {
+                                                      "romaji":  "Dragon Ball Super: Beerus",
+                                                      "english":  "Dragon Ball Super: Beerus",
+                                                      "native":  "ドラゴンボール超 ビルス"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  4,
+                                       "duration":  23,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  8.1,
+                                       "popularity":  30501,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Sci-Fi"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206814-PVVzRbf1IQpe.jpg",
+                                       "color":  "#e48643",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/206814-ARuwrZJAGONN.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  7,
+                         "airingAt":  1794148200,
+                         "anime":  {
+                                       "id":  185756,
+                                       "idMal":  60601,
+                                       "title":  "As a Reincarnated Aristocrat, I\u0027ll Use My Appraisal Skill to Rise in the World Season 3",
+                                       "titles":  {
+                                                      "romaji":  "Tensei Kizoku, Kantei Skill de Nariagaru 3rd Season",
+                                                      "english":  "As a Reincarnated Aristocrat, I\u0027ll Use My Appraisal Skill to Rise in the World Season 3",
+                                                      "native":  "転生貴族、鑑定スキルで成り上がる 第3期"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  6,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.8,
+                                       "popularity":  30050,
+                                       "genres":  [
+                                                      "Adventure",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx185756-xPCl0RyQ7fXD.jpg",
+                                       "color":  "#d6f1c9",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794148200,
+                         "anime":  {
+                                       "id":  205896,
+                                       "idMal":  63292,
+                                       "title":  "Full Clearing Another World under a Goddess with Zero Believers",
+                                       "titles":  {
+                                                      "romaji":  "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
+                                                      "english":  "Full Clearing Another World under a Goddess with Zero Believers",
+                                                      "native":  "信者ゼロの女神サマと始める異世界攻略"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  4,
+                                       "duration":  null,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.5,
+                                       "popularity":  21343,
+                                       "genres":  [
+                                                      "Adventure",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx205896-ElrV8oVAsuax.jpg",
+                                       "color":  "#5dbbe4",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794148200,
+                         "anime":  {
+                                       "id":  200455,
+                                       "idMal":  62753,
+                                       "title":  "Even Though I\u0027m a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+                                       "titles":  {
+                                                      "romaji":  "Yowaki MAX Reijou Nano ni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
+                                                      "english":  "Even Though I\u0027m a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+                                                      "native":  "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.7,
+                                       "popularity":  13610,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Fantasy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200455-P3XStRQMJ7Di.png",
+                                       "color":  "#e45d35",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/200455-rlIXyuk0jHE3.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  7,
+                         "airingAt":  1794148200,
+                         "anime":  {
+                                       "id":  212888,
+                                       "idMal":  64340,
+                                       "title":  "Overgeared",
+                                       "titles":  {
+                                                      "romaji":  "Tempal: Item no Chikara",
+                                                      "english":  "Overgeared",
+                                                      "native":  "テムパル～アイテムの力～"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  7.6,
+                                       "popularity":  58683,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Comedy",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212888-NhyvqPt5aIuJ.jpg",
+                                       "color":  "#f19335",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/212888-ZsnNegBCKXQq.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794149100,
+                         "anime":  {
+                                       "id":  199426,
+                                       "idMal":  62590,
+                                       "title":  "HOTEL INHUMANS Season 2",
+                                       "titles":  {
+                                                      "romaji":  "Hotel Inhumans 2nd Season",
+                                                      "english":  "HOTEL INHUMANS Season 2",
+                                                      "native":  "ホテル・インヒューマンズ 第2期"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  13,
+                                       "duration":  23,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.1,
+                                       "popularity":  3804,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Drama"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx199426-0nBgTV9BrcJn.jpg",
+                                       "color":  "#e45d78",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794150000,
+                         "anime":  {
+                                       "id":  209463,
+                                       "idMal":  63753,
+                                       "title":  "From Far Away",
+                                       "titles":  {
+                                                      "romaji":  "Kanata Kara",
+                                                      "english":  "From Far Away",
+                                                      "native":  "彼方から"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  null,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.9,
+                                       "popularity":  6237,
+                                       "genres":  [
+                                                      "Adventure",
+                                                      "Fantasy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx209463-Yxk2q10RXgg8.jpg",
+                                       "color":  "#5d6be4",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794153600,
+                         "anime":  {
+                                       "id":  206774,
+                                       "idMal":  63381,
+                                       "title":  "Now That I Can Control Reality With A Mouse Cursor, I\u0027m Gonna Click Away On The Girls!",
+                                       "titles":  {
+                                                      "romaji":  "Mouse Cursor de Genjitsu wo Sousa Dekiru You ni Natta node, Onnanoko wo Ippai Click Shimasu",
+                                                      "english":  "Now That I Can Control Reality With A Mouse Cursor, I\u0027m Gonna Click Away On The Girls!",
+                                                      "native":  "マウスカーソルで現実を操作できるようになったので、女の子をいっぱいクリックしまーす"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  8,
+                                       "duration":  6,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  5.1,
+                                       "popularity":  7697,
+                                       "genres":  [
+                                                      "Ecchi",
+                                                      "Romance",
+                                                      "Supernatural"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx206774-gXVdrySlLY6y.jpg",
+                                       "color":  "#f1c9ae",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794153900,
+                         "anime":  {
+                                       "id":  211877,
+                                       "idMal":  64131,
+                                       "title":  "My Girlfriend\u0027s Friend",
+                                       "titles":  {
+                                                      "romaji":  "Kanojo no Tomodachi",
+                                                      "english":  "My Girlfriend\u0027s Friend",
+                                                      "native":  "彼女の友達"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  12,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  4.9,
+                                       "popularity":  14011,
+                                       "genres":  [
+                                                      "Drama",
+                                                      "Ecchi",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx211877-yWQ2r7XmWvG6.jpg",
+                                       "color":  "#f1a15d",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794153900,
+                         "anime":  {
+                                       "id":  212667,
+                                       "idMal":  64298,
+                                       "title":  "The Lonely Snow Widow and the Cursed Ring",
+                                       "titles":  {
+                                                      "romaji":  "Hitozukiai ga Nigate na Miboujin no Yukionna-san to Noroi no Yubiwa",
+                                                      "english":  "The Lonely Snow Widow and the Cursed Ring",
+                                                      "native":  "人付き合いが苦手な未亡人の雪女さんと呪いの指輪"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  4,
+                                       "duration":  7,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.4,
+                                       "popularity":  6067,
+                                       "genres":  [
+                                                      "Hentai",
+                                                      "Supernatural"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx212667-8g5ktyrx34Yl.jpg",
+                                       "color":  "#ff00a1",
+                                       "banner":  null,
+                                       "isAdult":  true
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794154620,
+                         "anime":  {
+                                       "id":  217782,
+                                       "idMal":  65167,
+                                       "title":  "My Girlfriend\u0027s Friend Mini Anime",
+                                       "titles":  {
+                                                      "romaji":  "Kanojo no Tomodachi Mini Anime Gekijou",
+                                                      "english":  "My Girlfriend\u0027s Friend Mini Anime",
+                                                      "native":  "彼女の友達 ミニアニメ劇場"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  12,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  360,
+                                       "genres":  [
+                                                      "Drama",
+                                                      "Ecchi",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx217782-DV0vODQ68ZRk.png",
+                                       "color":  "#ff9335",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794154800,
+                         "anime":  {
+                                       "id":  208025,
+                                       "idMal":  63509,
+                                       "title":  "I\u0027m Dating a Dark Summoner",
+                                       "titles":  {
+                                                      "romaji":  "Dark Summoner to Dekiteiru",
+                                                      "english":  "I\u0027m Dating a Dark Summoner",
+                                                      "native":  "ダークサモナーとデキている"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  12,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  6.7,
+                                       "popularity":  29278,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Ecchi",
+                                                      "Fantasy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx208025-JKvqWNr8rz8l.jpg",
+                                       "color":  "#fff1ae",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/208025-s7hcRQO7kwmH.jpg",
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794160800,
+                         "anime":  {
+                                       "id":  218217,
+                                       "idMal":  65169,
+                                       "title":  "JK Dark Summoner to Deki......Dei Nai!?",
+                                       "titles":  {
+                                                      "romaji":  "JK Dark Summoner to Deki......Dei Nai!?",
+                                                      "english":  null,
+                                                      "native":  "JKダークサモナーとデキ。。。。。。でいない!?"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  10,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  337,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Ecchi",
+                                                      "Fantasy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx218217-crIGlnQDg0bJ.png",
+                                       "color":  "#e4bb28",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  166,
+                         "airingAt":  1794189600,
+                         "anime":  {
+                                       "id":  137653,
+                                       "idMal":  55809,
+                                       "title":  "Renegade Immortal",
+                                       "titles":  {
+                                                      "romaji":  "Xian Ni",
+                                                      "english":  "Renegade Immortal",
+                                                      "native":  "仙逆"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  180,
+                                       "duration":  23,
+                                       "season":  null,
+                                       "year":  null,
+                                       "rating":  8.3,
+                                       "popularity":  6675,
+                                       "genres":  [
+                                                      "Action",
+                                                      "Adventure",
+                                                      "Drama",
+                                                      "Fantasy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137653-1wHbCVvABGOr.png",
+                                       "color":  "#f19350",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  11,
+                         "airingAt":  1794189600,
+                         "anime":  {
+                                       "id":  214593,
+                                       "idMal":  null,
+                                       "title":  "YU-SANCHi! from YU-HACHi",
+                                       "titles":  {
+                                                      "romaji":  "Yuusanchi! from Yuuhachi",
+                                                      "english":  "YU-SANCHi! from YU-HACHi",
+                                                      "native":  "ゆうさんち！from 遊ハち"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV_SHORT",
+                                       "status":  "RELEASING",
+                                       "episodes":  10,
+                                       "duration":  1,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  141,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Slice of Life"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx214593-WZ0HaPSRae2E.png",
+                                       "color":  "#f1ae50",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794193200,
+                         "anime":  {
+                                       "id":  218532,
+                                       "idMal":  65119,
+                                       "title":  "Maomao no Hitorigoto 3rd Season",
+                                       "titles":  {
+                                                      "romaji":  "Maomao no Hitorigoto 3rd Season",
+                                                      "english":  null,
+                                                      "native":  "猫猫のひとりごと 第3期"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  5,
+                                       "duration":  2,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  490,
+                                       "genres":  [
+                                                      "Comedy"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx218532-I1GCprJrJ5sm.png",
+                                       "color":  "#e4c9ae",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  5,
+                         "airingAt":  1794214800,
+                         "anime":  {
+                                       "id":  218938,
+                                       "idMal":  65184,
+                                       "title":  "Hotaru no Yomeiri: Choitashi",
+                                       "titles":  {
+                                                      "romaji":  "Hotaru no Yomeiri: Choitashi",
+                                                      "english":  null,
+                                                      "native":  "ホタルの嫁入り ちょいたし"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "ONA",
+                                       "status":  "RELEASING",
+                                       "episodes":  4,
+                                       "duration":  1,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  null,
+                                       "popularity":  344,
+                                       "genres":  [
+                                                      "Comedy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx218938-i29Q90gbQcZQ.png",
+                                       "color":  "#f1c9c9",
+                                       "banner":  null,
+                                       "isAdult":  false
+                                   }
+                     },
+                     {
+                         "episode":  6,
+                         "airingAt":  1794227400,
+                         "anime":  {
+                                       "id":  207191,
+                                       "idMal":  63409,
+                                       "title":  "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
+                                       "titles":  {
+                                                      "romaji":  "Doumo, Suki na Hito ni Horegusuri wo Irai Sareta Majo desu.",
+                                                      "english":  "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
+                                                      "native":  "どうも、好きな人に惚れ薬を依頼された魔女です。"
+                                                  },
+                                       "type":  "anime",
+                                       "format":  "TV",
+                                       "status":  "RELEASING",
+                                       "episodes":  12,
+                                       "duration":  24,
+                                       "season":  "FALL",
+                                       "year":  2026,
+                                       "rating":  7.2,
+                                       "popularity":  30274,
+                                       "genres":  [
+                                                      "Fantasy",
+                                                      "Romance"
+                                                  ],
+                                       "poster":  "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx207191-VgkIzfH92WoZ.jpg",
+                                       "color":  "#aed6e4",
+                                       "banner":  "https://s4.anilist.co/file/anilistcdn/media/anime/banner/207191-xYgpkCDnXc5m.jpg",
+                                       "isAdult":  false
+                                   }
+                     }
+                 ]
+}
