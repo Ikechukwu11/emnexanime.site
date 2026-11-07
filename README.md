@@ -59,3 +59,4 @@ docs/                Architecture, contracts and porting guide — read before r
 | `docs/03-caching.md` | Both cache layers: TTLs, locks, stale-if-error, negative cache, quotas |
 | `docs/04-frontend.md` | `window.EMNX`, JS module contracts, `data-*` hooks, localStorage schemas |
 | `docs/05-porting-guide.md` | Checklist + invariant list for rewriting this onto another (procedural) PHP framework |
+| `docs/06-player.md` | Video player architecture, controls, DOM events, and autoplay |

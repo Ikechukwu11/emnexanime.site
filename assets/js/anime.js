@@ -211,7 +211,7 @@
                 + '<span class="ep-row__title">' + EMNX.esc(ep.title || 'Episode ' + ep.number) + '</span>'
                 + '<span class="ep-row__sub">Episode ' + ep.number + (done ? ' · watched' : '') + '</span>'
                 + '</span>'
-                + '<span class="ep-row__play">' + EMNX.iconBtn('play', 16) + '</span>'
+                + '<span class="ep-row__play"> style="display:none"' + EMNX.iconBtn('play', 16) + '</span>'
                 + '<span class="ep-row__chevron">' + chevron() + '</span>'
                 + '</a>';
         }

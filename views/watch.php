@@ -4,16 +4,16 @@ declare(strict_types=1);
 /** @var int $episode */
 /** @var string $type */
 
-$id       = (int) $anime['id'];
-$title    = title_of($anime);
-$poster   = poster_of($anime);
-$banner   = banner_of($anime);
-$total    = (int) ($anime['episodes'] ?? 0);
-$idMal    = (int) ($anime['idMal'] ?? 0);
-$prevEp   = max(1, $episode - 1);
-$nextEp   = $episode + 1;
-$hasNext  = isset($hasNext) ? $hasNext : ($total <= 0 || $episode < $total);
-$isDub    = $type === 'dub';
+$id = (int) $anime['id'];
+$title = title_of($anime);
+$poster = poster_of($anime);
+$banner = banner_of($anime);
+$total = (int) ($anime['episodes'] ?? 0);
+$idMal = (int) ($anime['idMal'] ?? 0);
+$prevEp = max(1, $episode - 1);
+$nextEp = $episode + 1;
+$hasNext = isset($hasNext) ? $hasNext : ($total <= 0 || $episode < $total);
+$isDub = $type === 'dub';
 $synopsis = excerpt_text(clean_description($anime['description'] ?? ''), 240);
 ?>
 <div class="container watch-page">
@@ -25,17 +25,11 @@ $synopsis = excerpt_text(clean_description($anime['description'] ?? ''), 240);
 
     <div class="watch-layout">
         <div class="watch-main">
-            <div class="player"
-                 data-player
-                 data-id="<?= $id ?>"
-                 data-mal="<?= $idMal ?>"
-                 data-episode="<?= (int) $episode ?>"
-                 data-type="<?= e($type) ?>"
-                 data-title="<?= e($title) ?>"
-                 data-poster="<?= e($poster) ?>"
-                 data-banner="<?= e($banner) ?>"
-                 data-total="<?= $total ?>">
-                <video class="player__video" data-video playsinline preload="metadata" poster="<?= e($banner) ?>"></video>
+            <div class="player" data-player data-id="<?= $id ?>" data-mal="<?= $idMal ?>"
+                data-episode="<?= (int) $episode ?>" data-type="<?= e($type) ?>" data-title="<?= e($title) ?>"
+                data-poster="<?= e($poster) ?>" data-banner="<?= e($banner) ?>" data-total="<?= $total ?>">
+                <video class="player__video" data-video playsinline preload="metadata"
+                    poster="<?= e($banner) ?>"></video>
 
                 <div class="player__loader" data-player-loader>
                     <div class="player__loader-ring"></div>
@@ -52,23 +46,29 @@ $synopsis = excerpt_text(clean_description($anime['description'] ?? ''), 240);
                     </div>
                 </div>
 
-                <button class="player__bigplay" type="button" data-bigplay aria-label="Play">
+                <!-- <button class="player__bigplay" type="button" data-bigplay aria-label="Play">
                     <?= View::icon('play', 30) ?>
-                </button>
+                </button> -->
 
-                <button class="player__skip player__skip--intro" type="button" data-skip-intro hidden>Skip intro</button>
-                <button class="player__skip player__skip--outro" type="button" data-skip-outro hidden>Skip outro</button>
+                <button class="player__skip player__skip--intro" type="button" data-skip-intro hidden>Skip
+                    intro</button>
+                <button class="player__skip player__skip--outro" type="button" data-skip-outro hidden>Skip
+                    outro</button>
 
                 <div class="player__controls" data-controls>
                     <div class="player__timeline">
                         <div class="player__buffered" data-buffered></div>
                         <div class="player__played" data-played></div>
-                        <input class="player__seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek" data-seek>
+                        <input class="player__seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek"
+                            data-seek>
                     </div>
                     <div class="player__bar">
-                        <button class="player__btn" type="button" data-playpause aria-label="Pause"><?= View::icon('play', 19) ?></button>
-                        <button class="player__btn player__btn--mute" type="button" data-mute aria-label="Mute"><?= View::icon('volume', 19) ?></button>
-                        <input class="player__volume" type="range" min="0" max="1" step="0.05" value="1" aria-label="Volume" data-volume>
+                        <button class="player__btn" type="button" data-playpause
+                            aria-label="Pause"><?= View::icon('play', 19) ?></button>
+                        <button class="player__btn player__btn--mute" type="button" data-mute
+                            aria-label="Mute"><?= View::icon('volume', 19) ?></button>
+                        <input class="player__volume" type="range" min="0" max="1" step="0.05" value="1"
+                            aria-label="Volume" data-volume>
                         <span class="player__time" data-time>0:00 <span>/</span> 0:00</span>
                         <span class="player__spacer"></span>
                         <label class="player__select-wrap" title="Playback speed">
@@ -98,22 +98,27 @@ $synopsis = excerpt_text(clean_description($anime['description'] ?? ''), 240);
                                 <option value="-1">CC off</option>
                             </select>
                         </label>
-                        <button class="player__btn" type="button" data-pip aria-label="Picture in picture"><?= View::icon('pip', 18) ?></button>
-                        <button class="player__btn" type="button" data-fullscreen aria-label="Fullscreen"><?= View::icon('fullscreen', 18) ?></button>
+                        <button class="player__btn" type="button" data-pip
+                            aria-label="Picture in picture"><?= View::icon('pip', 18) ?></button>
+                        <button class="player__btn" type="button" data-fullscreen
+                            aria-label="Fullscreen"><?= View::icon('fullscreen', 18) ?></button>
                     </div>
                 </div>
             </div>
 
             <div class="watch-head">
                 <div class="watch-head__text">
-                    <p class="eyebrow"><span class="live-dot"></span> Now playing · <?= $isDub ? 'Dub' : 'Sub' ?> · Episode <?= (int) $episode ?></p>
+                    <p class="eyebrow"><span class="live-dot"></span> Now playing · <?= $isDub ? 'Dub' : 'Sub' ?> ·
+                        Episode <?= (int) $episode ?></p>
                     <h1><a href="<?= e(anime_url($id)) ?>"><?= e($title) ?></a></h1>
                     <p class="watch-head__ep" data-episode-title>Episode <?= (int) $episode ?></p>
                 </div>
                 <div class="watch-head__actions">
                     <div class="segmented" role="group" aria-label="Audio">
-                        <a class="segmented__item <?= $isDub ? '' : 'is-active' ?>" href="<?= e(watch_url($id, $episode, 'sub')) ?>">Sub</a>
-                        <a class="segmented__item <?= $isDub ? 'is-active' : '' ?>" href="<?= e(watch_url($id, $episode, 'dub')) ?>">Dub</a>
+                        <a class="segmented__item <?= $isDub ? '' : 'is-active' ?>"
+                            href="<?= e(watch_url($id, $episode, 'sub')) ?>" data-audio-type="sub">Sub</a>
+                        <a class="segmented__item <?= $isDub ? 'is-active' : '' ?>"
+                            href="<?= e(watch_url($id, $episode, 'dub')) ?>" data-audio-type="dub">Dub</a>
                     </div>
                     <label class="switch">
                         <input type="checkbox" data-autoplay-next>
@@ -125,10 +130,12 @@ $synopsis = excerpt_text(clean_description($anime['description'] ?? ''), 240);
             <div class="watch-meta" data-source-meta hidden></div>
 
             <div class="watch-actions">
-                <a class="btn btn--ghost btn--sm" href="<?= e(watch_url($id, $prevEp, $type)) ?>" data-prev-episode <?= $episode <= 1 ? 'aria-disabled="true" tabindex="-1"' : '' ?>>
+                <a class="btn btn--ghost btn--sm" href="<?= e(watch_url($id, $prevEp, $type)) ?>" data-prev-episode
+                    <?= $episode <= 1 ? 'aria-disabled="true" tabindex="-1"' : '' ?>>
                     <?= View::icon('back', 15) ?> Previous
                 </a>
-                <a class="btn btn--ghost btn--sm" href="<?= e(watch_url($id, $nextEp, $type)) ?>" data-next-episode <?= !$hasNext ? 'aria-disabled="true" tabindex="-1"' : '' ?>>
+                <a class="btn btn--ghost btn--sm" href="<?= e(watch_url($id, $nextEp, $type)) ?>" data-next-episode
+                    <?= !$hasNext ? 'aria-disabled="true" tabindex="-1"' : '' ?>>
                     Next episode <?= View::icon('arrow', 15) ?>
                 </a>
                 <button class="btn btn--ghost btn--sm" type="button" data-reload-stream>Reload stream</button>
@@ -145,7 +152,8 @@ $synopsis = excerpt_text(clean_description($anime['description'] ?? ''), 240);
                     <?php foreach (array_slice((array) ($anime['genres'] ?? []), 0, 5) as $genre): ?>
                         <a class="chip chip--link" href="<?= e(genre_url((string) $genre)) ?>"><?= e($genre) ?></a>
                     <?php endforeach; ?>
-                    <?php if (season_text($anime) !== ''): ?><span class="chip"><?= e(season_text($anime)) ?></span><?php endif; ?>
+                    <?php if (season_text($anime) !== ''): ?><span
+                            class="chip"><?= e(season_text($anime)) ?></span><?php endif; ?>
                 </div>
             </div>
         </div>
@@ -158,22 +166,41 @@ $synopsis = excerpt_text(clean_description($anime['description'] ?? ''), 240);
                 </div>
                 <div class="watch-ep-filter">
                     <span><?= View::icon('search', 15) ?></span>
-                    <input type="search" placeholder="Filter episodes…" autocomplete="off" data-watch-ep-filter aria-label="Filter episodes">
+                    <input type="search" placeholder="Filter episodes…" autocomplete="off" data-watch-ep-filter
+                        aria-label="Filter episodes">
                 </div>
                 <div class="watch-ep-list" data-watch-ep-list>
-                    <div class="ep-placeholder"><span class="load-spinner"><span></span><span></span><span></span></span><span>Loading episodes…</span></div>
+                    <div class="ep-placeholder"><span
+                            class="load-spinner"><span></span><span></span><span></span></span><span>Loading
+                            episodes…</span></div>
                 </div>
-                <button class="btn btn--ghost btn--sm btn--block" type="button" data-watch-ep-more hidden>Load more</button>
+                <button class="btn btn--ghost btn--sm btn--block" type="button" data-watch-ep-more hidden>Load
+                    more</button>
             </section>
 
             <section class="side-card watch-shortcuts">
                 <h2>Shortcuts</h2>
                 <dl class="shortcut-list">
-                    <div><dt><kbd>Space</kbd> / <kbd>K</kbd></dt><dd>Play / pause</dd></div>
-                    <div><dt><kbd>←</kbd> <kbd>→</kbd></dt><dd>Seek 10 seconds</dd></div>
-                    <div><dt><kbd>F</kbd></dt><dd>Fullscreen</dd></div>
-                    <div><dt><kbd>M</kbd></dt><dd>Mute</dd></div>
-                    <div><dt><kbd>N</kbd></dt><dd>Next episode</dd></div>
+                    <div>
+                        <dt><kbd>Space</kbd> / <kbd>K</kbd></dt>
+                        <dd>Play / pause</dd>
+                    </div>
+                    <div>
+                        <dt><kbd>←</kbd> <kbd>→</kbd></dt>
+                        <dd>Seek 10 seconds</dd>
+                    </div>
+                    <div>
+                        <dt><kbd>F</kbd></dt>
+                        <dd>Fullscreen</dd>
+                    </div>
+                    <div>
+                        <dt><kbd>M</kbd></dt>
+                        <dd>Mute</dd>
+                    </div>
+                    <div>
+                        <dt><kbd>N</kbd></dt>
+                        <dd>Next episode</dd>
+                    </div>
                 </dl>
             </section>
         </aside>

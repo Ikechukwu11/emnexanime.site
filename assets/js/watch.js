@@ -244,24 +244,42 @@
         const wantSub = param('sub', null);
         if (wantSub !== null) {
             subsSel.value = (wantSub === 'off' || wantSub === '-1' || isNaN(parseInt(wantSub, 10))) ? 'off' : String(Math.max(0, Math.min(subs.length - 1, parseInt(wantSub, 10))));
+        } else if (subs.findIndex(function (s) { return s.default; }) !== -1) {
+            const defaultIndex = subs.findIndex(function (s) { return s.default; });
+            subsSel.value = String(defaultIndex);
         } else if (video.querySelector('track[data-kind="sub"][default]')) {
             subsSel.value = video.querySelector('track[data-kind="sub"][default]').getAttribute('data-index');
         } else {
             subsSel.value = 'off';
         }
         applySubSelection();
-        syncUrl({ sub: subsSel.value === 'off' ? null : subsSel.value });
+        syncUrl({ sub: (subsSel.value === 'off' || subsSel.value === '-1') ? null : subsSel.value });
     }
 
     function applySubSelection() {
         if (!subsSel || !video.textTracks) return;
         const want = subsSel.value;
+        const trackNodes = Array.from(video.querySelectorAll('track[data-kind="sub"]'));
+
         for (let i = 0; i < video.textTracks.length; i++) {
             const track = video.textTracks[i];
-            if (track.kind !== 'subtitles') continue;
-            track.mode = String(track.getAttribute('data-index')) === want ? 'showing' : 'disabled';
+            if (track.kind !== 'subtitles' && track.kind !== 'captions') continue;
+
+            // Match TextTrack by its track node's data-index or matching language/label
+            let index = -1;
+            if (trackNodes[i]) {
+                index = trackNodes[i].getAttribute('data-index');
+            } else {
+                const matchedNode = trackNodes.find(function (n) {
+                    return n.srclang === track.language || n.label === track.label;
+                });
+                if (matchedNode) index = matchedNode.getAttribute('data-index');
+            }
+
+            const shouldShow = (want !== 'off' && want !== '-1') && (String(index) === String(want) || String(i) === String(want));
+            track.mode = shouldShow ? 'showing' : 'disabled';
         }
-        emit('emnx:subtitle', want === 'off' ? null : want);
+        emit('emnx:subtitle', (want === 'off' || want === '-1') ? null : want);
     }
 
     /* ============================================================ attach */
@@ -564,6 +582,32 @@
 
     /* =========================================================== controls */
 
+    /* --- sub / dub seamless switcher without full page navigation --- */
+    document.querySelectorAll('[data-audio-type]').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetType = btn.getAttribute('data-audio-type');
+            if (targetType === state.type && !state.fellBack) return;
+
+            document.querySelectorAll('[data-audio-type]').forEach(function (el) {
+                el.classList.toggle('is-active', el.getAttribute('data-audio-type') === targetType);
+            });
+
+            state.type = targetType;
+            state.fellBack = false;
+            syncUrl({ type: targetType });
+
+            // Update eyebrow status indicator if present
+            const eyebrow = document.querySelector('.watch-head__text .eyebrow');
+            if (eyebrow) {
+                const label = targetType === 'dub' ? 'Dub' : 'Sub';
+                eyebrow.innerHTML = '<span class="live-dot"></span> Now playing · ' + label + ' · Episode ' + state.episode;
+            }
+
+            resolveStream(false, targetType);
+        });
+    });
+
     /* --- seek bar --- */
     if (seekBar) {
         seekBar.addEventListener('input', function () {
@@ -696,7 +740,7 @@
         // Only surface "Buffering…" if the stall lasts a moment — not a
         // permanently blocking overlay (and the loader never traps clicks).
         clearTimeout(waitingTimer);
-        waitingTimer = setTimeout(function () { showLoader('Buffering…'); }, 350);
+        //waitingTimer = setTimeout(function () { showLoader('Buffering…'); }, 350);
         emit('emnx:waiting', null);
     });
     ['playing', 'canplay'].forEach(function (event) {

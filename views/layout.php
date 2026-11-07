@@ -202,7 +202,7 @@ $siteName = 'EmnexAnime';
         <script src="<?= e(asset('vendor/hls.min.js')) ?>" defer></script>
     <?php endif; ?>
     <?php foreach (array_unique($scripts) as $script): ?>
-        <script src="<?= e(asset('js/' . $script . '?v=2')) ?>" defer></script>
+        <script src="<?= e(asset('js/' . $script . '?ver=22')) ?>" defer></script>
     <?php endforeach; ?>
 </body>
 

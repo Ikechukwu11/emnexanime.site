@@ -1289,7 +1289,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .ep-row__play {
     position: absolute;
     inset: 0;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     background: rgba(4, 6, 8, .28);
@@ -1577,7 +1577,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
     position: absolute;
     z-index: 5;
     left: 50%; top: 50%;
-    display: inline-flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 76px; height: 76px;
